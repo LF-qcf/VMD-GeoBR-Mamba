@@ -368,8 +368,6 @@ The repository provides the core implementation for:
 - prediction export;
 - result visualization.
 
-Before public release, replace placeholders such as `<YOUR_USERNAME>` and verify that all commands and paths match the released code.
-
 ---
 
 <div align="center">
