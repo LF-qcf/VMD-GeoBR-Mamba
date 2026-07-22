@@ -64,7 +64,6 @@ This repository focuses on the executable software workflow, including:
 - prediction aggregation;
 - result export and visualization.
 
-Detailed scientific discussion and case-specific interpretation are intentionally not included in this README.
 
 ---
 
