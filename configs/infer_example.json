@@ -1,0 +1,7 @@
+{
+  "csv": "LS_CD_test_400.csv",
+  "ckpt": "geobr_mamba_decomp_outputs/geobr_mamba.pt",
+  "out_dir": "geobr_mamba_infer_outputs",
+  "batch_size": 512,
+  "aggregate": "mean"
+}

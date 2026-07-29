@@ -1,0 +1,11 @@
+{
+  "csv": "CD_train_300.csv",
+  "column": "IMF_3",
+  "seq_len": 300,
+  "pred_len": 1,
+  "epochs": 30,
+  "batch_size": 512,
+  "lambda_bg": 0.4,
+  "lambda_res": 0.01,
+  "out_dir": "geobr_mamba_decomp_outputs"
+}
