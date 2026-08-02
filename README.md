@@ -214,14 +214,7 @@ Datetime,IMF_3
 ### 2. Train
 
 ```bash
-python scripts/train.py \
-  --csv path/to/train.csv \
-  --column IMF_3 \
-  --seq-len 300 \
-  --pred-len 1 \
-  --epochs 30 \
-  --batch-size 512 \
-  --output-dir outputs/train
+python scripts/train.py   --csv data/CD_train_300.csv   --column IMF_3   --seq-len 300   --pred-len 1   --epochs 30   --batch-size 512
 ```
 
 Typical training outputs:
@@ -242,10 +235,7 @@ outputs/train/
 ### 3. Run Inference
 
 ```bash
-python scripts/infer.py \
-  --csv path/to/test.csv \
-  --ckpt outputs/train/best_model.pt \
-  --output-dir outputs/inference
+python scripts/infer.py   --csv data/LD_CD_test_300.csv   --ckpt geobr_mamba_decomp_outputs/geobr_mamba.pt
 ```
 
 Typical inference outputs:
